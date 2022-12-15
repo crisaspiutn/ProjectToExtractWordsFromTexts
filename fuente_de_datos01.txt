@@ -1,0 +1,202 @@
+Abstract
+The Internet has had a significant impact on the process of developing information systems. However, there has been little research that has examined specifically the role of the development methodologies in this new era. Although there are many new forces driving systems development, many other issues are extensions of problems that have been there for some years. This paper identifies the main requirements of methodologies for developing e-commerce applications. A number of e-commerce application development approaches are examined and a methodology is proposed which attempts to address a number of issues identified within the literature. The Internet commerce development methodology (ICDM) considers evolutionary development of systems, provides a business and strategic focus and includes a management structure in addition to covering the engineering aspects of e-commerce application development.
+Many traditional systems development methodologies are perceived as being inadequate for dealing with the development of e-commerce systems. The paper proposes that there is a need for an overarching development framework where other more sub-system specific approaches can be integrated. However, any such framework should consider the strategic business drivers of the system, the evolutionary nature of systems, effective management structures and the development of a conducive organisational culture. © 2002 Elsevier Science
+B.V. All rights reserved.
+Keywordr: Web development; Methodology; Web development requirements; E-commerce
+Introduction
+
+The popular assumption is that processes, methods and techniques used for applications development have changed radically as the focus of applications has moved from the traditional information systems domain to the Web [1,2]. In this paper, we examine the characteristics of the e- commerce development environment. Several e-commerce development approaches are discussed. An Internet commerce development methodology (ICDM) is presented as a guiding framework for the development of e-commerce systems. Finally, the issues related to the requirements that electronic commerce development approaches should address to be effective are discussed.
+2.	Methodologies for Web applications development
+
+The Internet and the Web have had a profound impact on the business world. The changing business landscape has also impacted on the requirements of systems development approaches. As a developer, it is important to be aware of
+these aspects so that the appropriate methods, design approaches and tools are employed in the development process. In this section of the paper, the characteristics of electronic commerce applications are discussed with the implications for the development process, and several e- commerce methodologies are analysed.
+
+2.1.	Characterirticr of e-commerce applicationr
+
+Web based applications are frequently multi-functional systems. The multi-functionality of many systems forces organisations to transcend traditional functional boundaries. To meet the customers needs, systems must be developed with a customer focus. This typically requires people from across the organisation to work in a collaborative manner thereby breaking down functional boundaries [3].
+Traditionally, development teams have consisted of IS professionals with a small number of user department repre- sentatives. Even teams made up of different business repre- sentatives may not be adequate for developing Web applications, especially if they are led by an information systems specialist [4]. The problems associated with repre- sentative teams are that members do not speak the same language and have different goals and expectations [5]. The teams that are required for Internet applications
+A comparison of Web development methodologies
+Scope	Feasibility to implementation	Strategy to implementation	Analysis to implementation	Analysis to implementation
+Key Techniques and Tools	Meta-information structure	Objectives analysis	Technical architecture design	Object oriented analysis and
+				design
+	Information structure	Web site design	Joint facilitated sessions	
+	Web page design			
+Focus of methodology	Intranet application	Web application	Information architecture	Software application
+Systems development view	Project/evolutionary	Project view	Project view	Project/evolutionary view
+External/internal emphasis	Internal	Internal	Internal	Internal
+development need to have a business focus and be led by a ‘Producer’ type figure who has expertise in the technical, marketing and business aspects of the organisation. The analogy of a film production team is apposite as such teams have one goal in mind but manage the diverse skills and tasks in the process [6].
+There are frequently diverse groups of stakeholders in relation to Web applications [26]. Stakeholders can include people internal or external to the organisation. Internal stakeholders could be specialised categories of employees and external stakeholders could be current customers or key suppliers. These stakeholder groups can live locally, or reside inter-state or overseas. Overseas users may have a different cultural and linguistic background and this may have to be considered in Web application development [3]. As a result of the diversity of stakeholders, responsibil- ity for the Web site applications within the organisation can be ambiguous with the potential for the overall management of the Web strategy to be given little consideration [2,7].
+The content and functionality of Web sites may change radically over time. Because of this, the notion of project completion is inappropriate. Even the standard six monthly update reviews used with traditional IS applications may be unsuitable for managing the rapid amount of change required. Web sites can be viewed as organic systems that are continually adapting to their environment [8].
+Developments and amendments made to a Web site do not necessarily rely on IS experts [2]. Web development can be done through HTML code or more likely Web authoring tools like Macromedia Dreamweaver, Microsoft Frontpage, etc. that attempt to simplify the process of developing Web pages and applications [26]. When the environment is one where the user departments or individual users have the skills, tools and authority to make additions and amendments to the system, careful consideration needs to be given to the overall management process of the application to avoid chaos.
+IS has been seen as a function supporting the running of the organisation [9]. The combination of developments in technology and innovations in organisational structure have led to the development of organisations where the IS does not just play a supporting role but actually becomes the strategic driver. This is especially true of e-commerce appli- cations, many of which are strategic in nature.
+2.2.	Exampler of Web development approacher
+
+E-commerce applications development lacks the type of specialised methodologies that exist for more traditional IS applications. There are tools to document Web sites and monitor their activity but they do not form an integrated suite of tools for the development process. Likewise, evaluation of Web site efficiency and effectiveness cannot be done in the same manner as IS professionals use with typical core business applications. There are few methodol- ogies that are appropriate for the development of Web appli- cations since most IS development methodologies traditionally focus on the technical and internal issues rather than business and organisational needs [10]. What follows is a review of several Web applications development approaches (Table 1). They have been chosen because they each represent a type of development approach, in that each one takes a different view of the ‘system’.
+Fournier [11] describes the factors involved in developing client–server and Web based systems. The methodology focuses on the development of appropriate information architecture for an organisation. The method uses Joint Facilitated Sessions to determine user requirements and concentrates on the technical architecture design of the system. Strategic, organisational and business issues are not given any attention in the approach. In this respect, the development process approach has an internal focus and more of a project view rather than an evolutionary perspective.
+The Intranet design methodology (IDM) [12], as its name suggests, is focused on Intranet applications development. It has ten stages starting with a feasibility study. Three stages are devoted to gathering the require- ments related to navigation through the Intranet and content. The next four stages are concerned with design issues and then the final two stages cover implementa- tion and testing. Overall, the focus of the methodology is on the design of the Intranet. The key techniques used in IDM are the meta-information structure and the information structure. The meta-information struc- ture is a method to organize information in abstract nodes with their links. The information structure defines the local structure of each node of the meta-information
+structure using classes, subclasses, instances, attributes, attribute values and links.
+Howcroft and Carroll [1] proposes a methodology for Web site development. In this respect, their understanding of the ryrtem is the Web site. The first phase of the metho- dology is the analysis phase which presents ideas for defin- ing a Web site strategy and more specific objectives. The objectives analysis is sub-divided into six tasks:
+•	Technology analysis
+•	Information analysis
+•	Skills analysis
+•	User analysis
+•	Cost analysis
+•	Risk analysis.
+The second phase covers design issues, the third covers the steps in constructing the Web site and phase four has three tasks related to implementing the Web site. Although the importance of an evolutionary perspective to develop- ment is mentioned in their paper, there are no specific details on how this is addressed. From the information provided the approach takes a project view, in other words, there is a relatively well-defined end to the project. Users are mentioned but these seem to refer to internal people rather than customers. Also, the strategy development component is narrow and related to the Web site only.
+Web application extension (WAE) [25] is concerned with the development of software for Web applications. It takes an object-oriented approach in the development process and involves system modelling with UML. One of the advan- tages of an object-oriented approach is the emphasis on re- usability of software components and this adds an evolu- tionary perspective on a software development level. Although focusing on software techniques may lead to reli- able and effective software systems it is unlikely to address the business issues, which are the drivers of e-commerce applications.
+Some researchers believe that new methodologies for information systems development need to be developed which recognise that ‘systems development is a first and foremost a social activity’ [13, p. 68]. Myers argues that formal engineering methods have an important role to play in IS development but they should be part of a much broader methodology which has a main aim of social and organisational change. The ICDM discussed in this paper is a methodology that attempts to address these issues within an e-commerce context.
+It would appear that many of the issues being discussed in electronic commerce (EC) development are not particularly new. Taking a business perspective, the role of methodolo- gies, evolutionary development approaches, speed of devel- opment and effective project management have all been topics of concern for many years [14–16]. That is not to say that companies effectively developed systems with a business focus and with an evolutionary perspective. So
+ 
+rather than viewing Web commerce as a radically new development paradigm it can be viewed as a evolutionary stage in the discipline of information systems where many of the of the same issues that were being discussed in the early nineties are just more critical and more significant now. However, the external focus of many e-commerce applications, alternatives to cost benefit analyses, effective management structures and creating an appropriate organi- sational culture are issues which may be critical in e- commerce projects but which are not covered by more tradi- tional IS methodologies. These issues are a consequence of the changing business environment and highlight the impor- tance of developing methodologies that can transform the organisational environment as well as evolve an effective technical system.
+
+3.	Key features of ICDM
+
+In this section, the main features of the ICDM are outlined [17,18]. ICDM is aimed at business-to-consumer application development and provides a guiding framework for developers. It attempts to address the issues related to emphasising a business focus, external focus and speed of change that business-to-consumer applications development requires. The description of the Methodology is guided by the framework for analysing methodologies provided by Avison and Fitzgerald [16].
+
+3.1.	Philorophy
+
+ICDM views e-business developments as organisational initiatives and as such takes into account the need to address strategic, business, managerial and organisational culture issues as well as the technical details of design and imple- mentation. In this respect, the Methodology takes an holistic subjectivist perspective arguing that e-commerce applica- tions will not be effective unless the organisational manage- ment and culture is conducive to change.
+Defining an organisation’s e-business strategy involves dealing with a range of information sources and opinions. A question such as ‘how can the organisation effectively employ e-commerce?’ is inherently subjective in nature and any definition of effective will be socially constructed to a large extent. ICDM relies on competitive analysis to help shape the e-business direction (SWOT analysis). ICDM emphasises the organisational environment in that it considers the merging of functional boundaries and the political and cultural nuances of working in teams. The methods used for the development of business strategy and for the definition of requirements (brainstorming and groups requirements sessions) are intensely social in nature. This factor recognises strategy as a socially constituted process and not static. Internet commerce should be a conti- nually evolving feature of the organisation and as such, any methodology to support it should be interwoven with a dynamic learning environment.
+Because of the changes in the business environment, organisations have had to change in form [19]. This has influenced organisational structure and management approaches. Flatter organisational structures have replaced many deep hierarchical organisational structures. Team based structures, which frequently change according to the required skills-mix, are an alternative to rigid departmental structures based upon functional lines. Teams are usually faster to adapt to a service and customer focus than large departments. The ICDM can only be successful if its context is appropriate and effective. An organisational methodol- ogy, such as ICDM, is inextricably linked with the organi- sational structures, management strategies and approaches.
+
+3.2.	Scope
+
+ICDM is a business analysis methodology as well as a systems development methodology. Many traditional infor- mation systems methodologies only cover the more techni- cal aspects of systems development and do not start with any
+ 
+form of business analysis. Internet commerce is first and foremost a business direction and hence requires a thorough analysis of its place in the overall business strategy.
+The ICDM takes into account the wider trends in the business world and society in its strategy development phase with the SWOT analysis. The changing profile of the consumer is important and user or customer involvement is factored in at various points in the methodology. It is no longer sufficient for a methodology to be inwardly focused; it must provide a mechanism for scanning the wider busi- ness environment. With the trend towards globalisation of economic markets an organisation must be continually look- ing for opportunities and learning on a global level [20].
+ICDM recommends a management structure for the evolution of Internet commerce in an organisation. Taking a project of electronic commerce is dangerous as the systems are continually changing. An evolutionary perspec- tive is more apposite. The first tier of the three-tier manage- ment and development structure has the responsibility of overseeing the evolving form of e-business.
+3.3.	Techniquer and toolr
+
+ICDM has a number of component phases to guide the development of strategy and the Web site. Issues related to Web page design, database connections, security issues, and implementation tools and methods are addressed [18].
+
+3.4.	Framework
+
+ICDM provides a framework for developing Internet commerce. It is not a prescriptive methodology with a large number of steps to be completed. It is a loose fitting framework for developing strategies and for the evolution- ary development of Web based systems. As a result, it is applicable to a wide range of situations where organisations are looking to gain from investing in Internet commerce.
+The approach acknowledges that organisational develop- ment via Internet commerce is sufficiently complex and varied to warrant the use of guidelines rather than detailed tasks that lack general applicability. This allows the company to adapt the methodology to the specialised condi- tions of the organisation. The danger of using such an approach is that it could be adopted in a piecemeal fashion and can damage the integrity of the methodology. The senior management and project teams would have to guard against this happening.
+
+
+4.	Overview of ICDM
+
+This paper proposes the ICDM as a framework for the development of Internet commerce in an organisational
+context (Figs. 1 and 2) [18]. ICDM provides both a manage- ment strategy and a development strategy that are driven by the needs of the business. Studies have shown that meth- odologies have been chosen, frequently by the IS depart- ment, which do not reflect the needs of the business [10]. Hence, ICDM gives particular attention to providing a busi- ness focus.
+ICDM has the following components and features that are described in the remainder of this section (Fig. 2).
+
+Web management structure
+Strategy and business analysis development phase SWOT analysis
+Level of change—business process re-engineering or value chain analysis
+o User involvement
+•	Meta-development strategy
+•	Analysis phase
+o	Requirements techniques
+o	Functional requirements framework
+•	Physical architecture framework
+•	Design phase
+•	Component implementation and evolution.
+
+4.1.	Web management rtrategy
+
+ICDM recommends the management and development of e-business systems on 3 levels (Fig. 3). The overall manage- ment and development of the entire Web strategy can be seen as an on-going task as well as the development of the functional components of a Web application. The first tier is a meta-development and management perspective that
+ 
+
+provides a framework for development. The second tier concerns the development of the components of the Web site. At both levels the work must be seen as being evolu- tionary in nature, to cope with the inevitable changes that will have to be made. The third tier in the management and development structure is concerned with developing and implementing the system and so includes technical devel- opment teams, analysts, content specialists and Web devel- opment consultants.
+
+4.2.	Strategy development phare of ICDM
+
+The use of the Internet for business purposes can take many forms. The Internet can be used strategically as a transformation agent to radically change the nature of the business. It can also be employed to improve processes or parts of processes over time and incrementally add-value to the business. ICDM provides a strategic planning approach that considers which option is most appropriate for a given situation (Fig. 4). ICDM draws upon business process re- engineering (BPR) [21] and value chain analysis [22] for its core strategic planning tools.
+To decide upon a strategy for a business, business unit or functional area, managers need to assess an organisation’s competitive situation. This involves assessing the organisa- tion and its environment. The process is known as compe- titive analysis. SWOT analysis is one method of competitive analysis [23]. The competitive situation for the company is assessed by examining its strengths (S), weaknesses (W), environmental opportunities (O) and threats (T). The competitive analysis will yield different results for each business examined (Fig. 4).
+The strengths examined in the SWOT analysis are the
+strengths of the business. The internal strengths are features of the organisation such as streamlined administrative systems, or technologically adept staff. The internal weak- nesses of the organisation can be detailed in much the same way. The wider environment can be scanned for economic, technological and social trends that can be exploited. For example, new government legislation may create an oppor- tunity for some organisations.
+Besides performing a competitive analysis, organisations should assess the threat of disintermediation. Due to the ease with which suppliers of products and services can market and sell directly to consumers those companies that act as intermediaries in the distribution chain risk being by-passed. This would clearly have disastrous consequences for the intermediaries and is termed disintermediation. The busi- nesses that are most at risk of disintermediation are those that do not significantly add value to the products and services they are distributing.
+The scale and scope of the changes should fall in to one of three categories: process change, process-re-engineering or transformation. Process change is related to the enhance- ment or modification of an organisational process with the aid of the Internet. Value chain analysis can be used to identify where value can be added for the customer. Process re-engineering is the complete redesign of a process with the aid of the Internet. Transformation is the radical change of a business leveraging Internet technology.
+
+4.3.	Meta-development rtrategy
+
+There are a number of strategies that can be employed by a company when managing the development of a Web site. The options depend upon the amount of regulation or control that is desired, both for content and design.
+
+1.	Plan the entire site and regulate its distributed develop- ment in consultation with business units.
+2.	Plan the core of the Web site and allow business units the autonomy to develop their own neighbourhoods.
+
+ICDM proposes that the decision on which option to adopt should be taken by the Web management team.
+
+4.4.	Urer involvement
+
+Customers or suppliers (users) of the systems should be involved at various stages of the e-business operations and be included in periodic reviews. Customer input is essential at the strategy development and business analysis stages and may involve the use of market research teams to obtain information on what customers require and barriers to using the Web. More detailed requirements can be obtained in group requirements sessions (GRS), telephone interviews or questionnaires. Customers can be involved in evaluating design issues by the use of prototype Web systems and they should be included in testing and evaluation of the Web site. Feedback can be obtained from users once the Web site is
+ 
+‘live’. As the e-business strategy is likely to evolve through time, focus groups can be used to provide input through reviewing the current system and making recommendations.
+
+4.5.	Site and component development
+
+Functional or divisional components of the Internet system can be approached as discrete projects. The implica- tions of the integration with other components of the Web application still need to be considered. A functional compo- nent could be a component that provides customers with the option to interrogate a database of products, or to obtain details about customers for marketing purposes. Even so, a multi-disciplinary team is still required because any component of a Web site is still concerned with implement- ing business strategy not just technology.
+
+4.6.	Requirementr analyrir techniquer
+
+There are a number of information gathering techniques that are especially relevant to the process of defining the requirements of Web applications. These methods are useful for projects where some degree of innovation can substan- tially improve the success of the system by providing a competitive edge for the organisation.
+Using group communication techniques can speed up the definition of the logical requirements for a Web application. The two group communication techniques used in the ICDM are brainstorming and the GRS. The first is used to define alternative ways of using Internet commerce in the business and the second is about obtaining the detailed requirements within a relatively fast time frame with invol- vement from customers, suppliers and internal staff.
+Prototypes can be developed to help in defining the requirements. In particular, the detailed information requirements of transaction and marketing systems can be trialled with customers. The prototypes, however, will be used, to a greater extent in the design phase of development.
+
+4.7.	Functional requirementr framework
+
+Web applications fall into a number of categories. These functional applications need the detailed definition of their requirements. It is beyond the scope of this paper to explain the detailed requirements of these systems but the analysts need to use the analysis techniques described earlier to make sure that the business objectives are being met [18].
+
+4.8.	Phyrical architecture framework
+
+The techniques used for defining the requirements for an Internet project depend on the type of system and its func- tionality. There are three fundamental types of Web systems: document publishing systems, basic interactive systems, and complex transaction systems. It is not always the case that Web projects intending to transform the orga- nisation require complex transaction systems. Useful infor- mation, clearly and effectively presented, with some simple
+database interactivity has the potential to make a major impact on a business.
+
+4.9.	Derign phare
+
+The design phase, although not discussed in detail in this paper, involves designing the network infrastructure, devel- oping the Web site and developing security controls. The Web site design should consider:
+•	Desired image
+•	Usability
+•	Promotion
+•	Evaluation with customers.
+
+4.10.	Implementation and evolution pharer
+
+The implementation of the Web site relates to the meta- development strategies discussed earlier. It is unlikely, unless the Web site is small, that all the sites will be designed and implemented in one project cycle. Web applications evolve and so rarely have a well defined project completion. However, there are cases where components of the Web site, such as transaction modules can be imple- mented and remain reasonably stable. The continual evolu- tion of the site should also be managed by the organisation’s Web management team. This team should be made up of senior people from each functional unit of the organisation. It is their task to oversee the implementation of the Web strategy and changes in strategic direction. They should also set policy on who can add to the Web site and content and design guidelines.
+
+5. Evaluation of methodologies
+
+A development methodology can be evaluated in a vari- ety of ways. It could be evaluated according to a framework of requirements or rationale to determine if these are met with the approach. The benefit of this is that it can be carried out by the system developers and so is relatively inexpen- sive and fast to conduct. Of course, the weakness is that all problems are unlikely to be identified.
+Focus groups are another method of evaluating methodol- ogies. ICDM has been evaluated with several focus groups. Each group was presented with extensive material docu- menting ICDM. Seminars lasting 3 h were conducted, at the end of which the participants discussed the methodol- ogy. The participants were then asked to list the strengths and weaknesses of the methodology for developing Internet commerce systems. This approach has the advantage of getting input from a range of people including practitioners and experts in the field. Again, the limitation is that all issues and problems may not be identified until the metho- dology is used in practice.
+The methodology can be evaluated by adopting it as the
+ 
+development methodology on a project as a form of action research. This is an ideal approach to evaluating a metho- dology. The difficulty is getting a company to trial the use of the methodology when it has not been ‘tested’ in practice.
+
+
+б. Discussion
+
+Previous sections of the paper have examined develop- ment issues in the electronic commerce environment with an analysis of several development approaches with an emphasis on ICDM. There are a number of general issues, in relation to the use of methodologies and frameworks for e-commerce development, which will now be discussed.
+
+6.1.	Different viewr of the ryrtem
+
+The scope of systems development approaches and meth- odologies varies greatly, and this is especially true of the e- commerce environment. With each methodology examined, there is an implicit assumption about what the system constitutes. For example, the ryrtem may be understood to be the software applications, Web site, information archi- tecture, Intranet application or business system.
+
+Software application—takes the view of the system as the programs that form the e-commerce applications. These would typically include Web pages in HTML, client and server-side scripts, and programs ranging in complexity.
+Web site—typically related to the design, creation and management of Web pages and associated scripts.
+Information architecture—includes the hardware, network, database and software.
+Specialist application—is related to the design, creation, and management of Web pages for a specialist applica- tion such as an Intranet or extranet.
+Business system—this view sees the strategic business issues as drivers of the system.
+
+The scope of the methodology or its implied understand- ing of the system highlights the level of specialisation in the IT environment. It is difficult for any one approach to give detailed guidance on all system views. However, the use of multiple methodologies would appear to be the only solu- tion to this issue. A methodology or approach can serve as a guiding framework (this is the role of ICDM) and specialist methodologies can be integrated (such as object oriented development for software application development).
+
+6.2.	Methodology/organirational interface
+
+Electronic commerce can be used to transform organisa- tional processes in organisation. Systems development methodologies rarely addressed the cultural transformation that was often required to support the changes in the processes. Business analysis methodologies such as BPR
+[21,24] explain the importance of transforming organisa- tional culture to best take advantage of the introduction of new technology. What is required is a framework that includes business analysis approaches with systems devel- opment.
+Whilst the consideration of developing an effective orga- nisational culture was listed as a strength of the ICDM by the focus groups, it was mentioned that more details need to be included on how to facilitate this. Creating an innovative organisational culture is not a simple task and of course, every company is at a different starting point. This high- lights the recognition given by practitioners to the issue and the difficulties they face when introducing technology into organisations when the organisational culture is not condu- cive to maximizing the potential of a new system.
+
+6.3.	Perception of methodologier
+
+There is a perception that both in the academic and prac- titioner worlds we are in a post-methodology era. This has resulted from the disillusionment with traditional informa- tion systems development methodologies [16]. This disillu- sionment results from the nature of many methodologies from previous eras in that they were seen as too inflexible for today’s fast changing business environment. Criticisms included: the prescriptive form of many methodologies, the lack of industry/application specific features, and the emphasis on time consuming documentation. Whilst acknowledging this general disillusionment with methodol- ogies, Avison and Fitzgerald do not disregard the need for and role of methodologies in systems development.
+
+
+7.	Conclusions
+
+Developing electronic commerce systems in organisation is a complex task. These systems have a number of sub- systems which include Web pages, software programs, IT and network systems and which are driven by the business system. There are methodologies for each of the systems but few that provide an overarching framework for develop- ment. ICDM aims to provide such a framework. However, feedback from focus groups and initial trials in industry suggest that further fine-tuning is required.
+This paper on Electronic commerce development meth- odologies highlights a number of issues for developers. A recurring issue in relation to systems development meth- odologies is providing sufficiently flexible guidelines and providing support for industry specific factors. In addition the methodology and organisational environment boundary is blurring. Practitioners require detailed guidelines on how to create a conducive organisational culture that will stimu- late innovative thinking and widespread adoption of e- commerce initiatives. Both of these issues are difficult for methodology designers to adequately take on board but will
+ 
+nonetheless be essential if methodologies are to retain their sense of relevancy.
+
+
